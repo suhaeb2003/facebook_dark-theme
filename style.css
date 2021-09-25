@@ -1,0 +1,30 @@
+.suhaeb {
+    width: 14rem;
+    height: 3rem;
+}
+#detials{
+    margin-top: 3.45rem;
+}
+.menu {
+    width: 3rem;
+    height: 3rem;
+}
+.menu svg {
+    margin: .5rem;
+}
+
+svg.bi.bi-list {
+    margin: .2rem;
+}
+
+svg.bi.bi-caret-down-fill {
+    margin: .3rem;
+}
+.leftber,
+.right-slide
+ {
+    overflow-y: scroll;
+    height: 100vh;
+    position: fixed;
+    width: 24%;
+}

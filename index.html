@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--  FONT AWESOME  -->
+    <script src="https://kit.fontawesome.com/bba1087ae0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook page</title>
+  </head>
+  <body class="bg-dark">
+  <!--------- HEADER FILE ------------>
+    <section id="nav " class="border-bottom border-white fixed-top">
+            <div class="container-fluid bg-dark overflow-hidden">
+              <div class="row my-2 ">
+                <div class="col d-flex">
+                  <a class="navbar-brand" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook text-white me-3" viewBox="0 0 16 16">
+                              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                             </svg>
+                  </a>
+                  
+                            <div class="btn-group mt-1 suhaeb rounded rounded-pill  bg-secondary">
+                              <input class="form-control text-light rounded-pill bg-secondary border border-secondary" type="search" placeholder="Search" aria-label="Search">
+                              <button class=" btn btn-secondary  text-light rounded-circle" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                      </svg></button>
+                                    </div>
+                </div>
+                <div class="col ">
+                    <nav class="navbar navbar-expand-lg navbar-light ">
+                              <div class="container-fluid">
+                                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon text-white" ></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                      <a class="nav-link text-white  fw-bolder me-5 " aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                       <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                                        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                                      </svg></a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link text-white  fw-bolder me-5" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 16 16">
+                                       <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                        <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+                                      </svg></a>
+                                    </li>
+                                   
+                                    <li class="nav-item">
+                                      <a class="nav-link text-white  fw-bolder me-5">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-flag-fill" viewBox="0 0 16 16">
+                                        <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001"/>
+                                      </svg></a>
+                                      <li class="nav-item">
+                                        <a class="nav-link text-white  fw-bolder me-5">
+                                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-shop-window" viewBox="0 0 16 16">
+                                                  <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z"/>
+                                                </svg>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white  fw-bolder me-5">
+                                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                                            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                                            <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                                                            <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                                                          </svg>
+                                        </a>
+                                    </li>
+                                  </ul>
+                                 
+                                </div>
+                              </div>
+                            </nav>
+                </div>
+                              <div class="col d-flex justify-content-end mt-lg-1">
+                   
+                                        <div class="menu ms-4 p-2 bg-secondary rounded-circle text-white">
+                                          <a class=" text-white" href="">
+                                              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                              </svg>
+                                          </a>
+                                      </div>
+                                     
+                                     <div class="menu  ms-4 p-1 bg-secondary rounded-circle text-white">
+                                      <a class=" text-white" href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+                                        <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+                                      </svg></a>
+                                    </div>
+                                   
+                                    <div class="menu  ms-4 p-1 bg-secondary rounded-circle text-center text-white">
+                                      <a class="  text-white" href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                                        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                                      </svg></a>
+                                    </div>
+                                      <div class="menu  ms-4 p-2 bg-secondary rounded-circle text-center">
+                                        <a class="text-white">
+                                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                                  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                                                </svg>
+                                        </a>
+                                      </div>
+                              </div>
+                            </nav>
+                </div>
+              </div>
+            </div>
+    </section>
+    <!-- body section make by bootstrap -->
+    <section id="detials" class="">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-sm-12 bg-dark">
+            <div class="leftber">
+             <ul class="list-group list-group-flush p-2 ms-2 mt-5">
+   
+               <a href="#" class="list-group-items d-flex text-decoration-none text-white my-2">
+                 <div class="icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle me-2 mt-2" viewBox="0 0 16 16">
+                     <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                     <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                   </svg>
+                 </div>
+                 <p class="fs-5">Lorem ipsum dolor sit amet</p>
+               </a>
+   
+               <a href="#" class="list-group-items d-flex text-decoration-none text-white my-2">
+                 <div class="icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-fill me-2 mt-2" viewBox="0 0 16 16">
+                     <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
+                   </svg>
+                 </div>
+                 <p class="fs-5">Lorem ipsum dolor sit amet</p>
+               </a>
+   
+               <a href="#" class="list-group-items d-flex text-decoration-none text-white my-2">
+                 <div class="icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart me-2 mt-2" viewBox="0 0 16 16">
+                     <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                   </svg>
+                 </div>
+                 <p class="fs-5">Lorem ipsum dolor sit amet</p>
+               </a>
+   
+               <a href="#" class="list-group-items d-flex text-decoration-none text-white my-2">
+                 <div class="icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill me-2 mt-2" viewBox="0 0 16 16">
+                     <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                     <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                     <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                   </svg>
+                 </div>
+                 <p class="fs-5">Lorem ipsum dolor sit amet</p>
+               </a>
+   
+               <a href="#" class="list-group-items d-flex text-decoration-none text-white my-2">
+                 <div class="icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flag-fill me-2 mt-2" viewBox="0 0 16 16">
+                     <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001"/>
+                   </svg>
+                 </div>
+                 <p class="fs-5">Lorem ipsum dolor sit amet</p>
+               </a>
+               <div class="form-check my-3  ">
+                 <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                 <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                   Lorem ipsum dolor sit amet.
+                 </label>
+               </div>
+               <div class="form-check my-3  ">
+                 <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                 <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                   Lorem ipsum dolor sit amet.
+                 </label>
+               </div>
+               <div class="form-check my-3  ">
+                 <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                 <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                   Lorem ipsum dolor sit amet.
+                 </label>
+               </div>
+               
+   
+             </ul>
+             <div class="bottom">
+               <h1 class="text-white fs-2 ms-2"> Your Shorcuts</h1>
+               <ul class="list-group list-group-flush p-2 mt-3 ms-2">
+                
+                
+                 <div class="form-check my-3  ">
+                   <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                   <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                     Lorem ipsum dolor sit amet.
+                   </label>
+                 </div>
+                 <div class="form-check my-3  ">
+                   <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                   <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                     Lorem ipsum dolor sit amet.
+                   </label>
+                 </div>
+                 <div class="form-check my-3  ">
+                   <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                   <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                     Lorem ipsum dolor sit amet.
+                   </label>
+                 </div>
+                 <div class="form-check my-3  ">
+                   <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                   <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                     Lorem ipsum dolor sit amet.
+                   </label>
+                 </div>
+                 <div class="form-check my-3  ">
+                   <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                   <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                     Lorem ipsum dolor sit amet.
+                   </label>
+                 </div>
+                 <div class="form-check my-3  ">
+                   <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                   <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                     Lorem ipsum dolor sit amet.
+                   </label>
+                 </div>
+                 
+               </ul>
+             </div>
+   
+            </div>
+          </div>
+          <!-- Middle box decoration -->
+          <div class="col-md-6 col-sm-12">
+           <div class="middle-slide">
+            <div class="card w-100 mt-4 bg-dark text-white border border-white mb-1">
+              <div class="card-body">
+                <h5 class="card-title pt-1">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle me-2 " viewBox="0 0 16 16">
+                   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                   <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                 </svg>
+                  Md.Suhaeb Hosen</h5>
+                <p class="small text-secondary">Last Update 3 min ago</p>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <img class="img-fluid" src="./Image/drone1.jpg" alt="">
+              </div>
+            </div>
+ 
+            <div class="card w-100 mt-4 bg-dark text-white border border-white mb-1">
+             <div class="card-body">
+               <h5 class="card-title pt-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle me-2 " viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+                 Md.Suhaeb Hosen</h5>
+               <p class="small text-secondary">Last Update 3 min ago</p>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+               <img class="img-fluid" src="./Image/drone2.jpg" alt="">
+             </div>
+           </div>
+ 
+           <div class="card w-100 mt-4 bg-dark text-white border border-white mb-1">
+             <div class="card-body">
+               <h5 class="card-title pt-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle me-2 " viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+                 Md.Suhaeb Hosen</h5>
+               <p class="small text-secondary">Last Update 3 min ago</p>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+               <img class="img-fluid" src="./Image/dornecover.jpg" alt="">
+             </div>
+           </div>
+           <div class="card w-100 mt-4 bg-dark text-white border border-white mb-1">
+             <div class="card-body">
+               <h5 class="card-title pt-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle me-2 " viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+                 Md.Suhaeb Hosen</h5>
+               <p class="small text-secondary">Last Update 3 min ago</p>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+               <img class="img-fluid" src="./Image/cemera.jpg" alt="">
+             </div>
+           </div>
+ 
+           <div class="card w-100 mt-4 bg-dark text-white border border-white mb-1">
+             <div class="card-body">
+               <h5 class="card-title pt-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle me-2 " viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+                 Md.Suhaeb Hosen</h5>
+               <p class="small text-secondary">Last Update 3 min ago</p>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+               <img class="img-fluid" src="./Image/flight.jpg" alt="">
+             </div>
+           </div>
+           
+           </div>
+          </div>
+           <!-- right side slide -->
+          <div class="col-md-3 col-sm-12 mt-5">
+            <div class="right-slide">
+              
+            <h4 class="text-white fs-3 mb-3" >Sponsors</h4>
+           
+            <div class="row bg-dark text-white">
+               <div class="col-md-4">
+              <img src="/Image/phone.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <h3>iphone 12max</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur </p>
+            </div>
+            
+            </div>
+            <div class="row bg-dark text-white mt-2">
+              <div class="col-md-4">
+             <img src="/Image/phone.jpg" alt="" class="img-fluid">
+           </div>
+           <div class="col-md-8">
+             <h3>iphone 12max</h3>
+             <p>Lorem ipsum dolor sit, amet consectetur </p>
+           </div>
+           
+           </div>
+           <div class="bottom">
+            <h1 class="text-white fs-2 ms-2 mt-4"> Pages</h1>
+            <ul class="list-group list-group-flush p-2 mt-3 ms-4">
+             
+             
+              <div class="form-check my-3  ">
+                <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet.
+                </label>
+              </div>
+              <div class="form-check my-3  ">
+                <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet.
+                </label>
+              </div>
+              <div class="form-check my-3  ">
+                <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet.
+                </label>
+              </div>
+              <div class="form-check my-3  ">
+                <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet.
+                </label>
+              </div>
+          </ul>
+          </div>
+          <div class="bottom">
+            <h1 class="text-white fs-2 ms-2 mt-4"> Contact</h1>
+            <ul class="list-group list-group-flush p-2 mt-3 ms-4">
+             
+             
+              <div class="form-check my-3  ">
+                <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet.
+                </label>
+              </div>
+              <div class="form-check my-3  ">
+                <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet.
+                </label>
+              </div>
+              <div class="form-check my-3  ">
+                <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label text-white fs-5" for="flexCheckDefault">
+                  Lorem ipsum dolor sit amet.
+                </label>
+              </div>
+              
+          </ul>
+          </div>
+        </div>
+      </div>
+            </div>
+          </div>
+       
+   
+    </section>
+   
+    
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+  </body>
+</html>
